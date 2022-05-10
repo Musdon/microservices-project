@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.microserviceproject.productservice.ProductServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.827 s <<< FAILURE! - in com.microserviceproject.productservice.ProductServiceApplicationTests
+com.microserviceproject.productservice.ProductServiceApplicationTests  Time elapsed: 7.826 s  <<< ERROR!
+com.github.dockerjava.api.exception.InternalServerErrorException: 
+Status 500: {"message":"Head \"https://registry-1.docker.io/v2/testcontainers/ryuk/manifests/0.3.3\": unauthorized: incorrect username or password"}
+
+
